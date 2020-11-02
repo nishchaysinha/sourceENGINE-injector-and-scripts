@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #TODO: check distro and packages
-
+#this might be broken
 function echo_orange {
 	echo -e "\\e[33m$*\\e[0m"
 }
