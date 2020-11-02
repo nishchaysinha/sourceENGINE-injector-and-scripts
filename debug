@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Starts a GDB session on CS:GO, injects cheat if it is not already present.
 # Send SIGINT to CS:GO with: "kill -2 "$(pidof csgo_linux64)"".
-
+#do not inject repeatedly known to cause VAC bans
 function echo_red {
 	echo -e "\\e[31m$*\\e[0m"
 }
